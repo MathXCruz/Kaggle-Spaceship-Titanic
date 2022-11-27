@@ -10,5 +10,7 @@ I'm updating this repo with every major update I make, to record how I got to ea
 
   - **Attempt 3 [Score = 0.80406]:** Added LGBM and model stacking, with some new features and deeper feature engineering. The model started to overfit a lot, with ~.9488 being my best local validation score, so I started removing some variables to try to addres this problem.
 
- _Next steps: feature engineering refinement, feature selection refinement, possibly adding a NN._
+  - **Attempt 4 [Score = 0.80967]:** Added pandas profiling for variable exploration, played with features used in the model, fixed stackingclassifier validation.
+
+ _Next steps: possibly adding a NN._
 
